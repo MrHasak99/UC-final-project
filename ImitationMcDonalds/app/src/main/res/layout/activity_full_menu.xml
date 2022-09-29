@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Red"
+    android:orientation="vertical"
+    tools:context=".FullMenuActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="179dp"
+        app:srcCompat="@drawable/mcdonaldslogo"
+        android:layout_marginTop="35sp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="Full Menu"
+        android:textAlignment="center"
+        android:textColor="@color/Yellow"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonbreakfast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25sp"
+        android:text="Breakfast"
+        android:textColor="@color/Black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonburgers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:text="Burgers"
+        android:textColor="@color/Black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonchickenandsandwiches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:text="Chicken and Sandwiches"
+        android:textColor="@color/Black"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/buttondessertsandshakes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:text="Desserts and Shakes"
+        android:textColor="@color/Black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttondrinksandbeverages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:text="Drinks and Beverages"
+        android:textColor="@color/Black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonsnacksandsides"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:text="Snacks and Sides"
+        android:textColor="@color/Black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttoncart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:text="View Cart"
+        android:textColor="@color/Black"
+        android:textSize="47sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

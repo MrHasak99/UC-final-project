@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Red"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="179dp"
+        app:srcCompat="@drawable/mcdonaldslogo"
+        android:layout_marginTop="35sp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:gravity="center"
+        android:text="Welcome To McDonalds!"
+        android:textColor="@color/Yellow"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Please Enter Your Name Here"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/Yellow" />
+
+    <EditText
+        android:id="@+id/editTextTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Please Enter Your Phone Number Here"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/Yellow" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:gravity="center"
+        android:text="Please Enter Your Address Here:"
+        android:textColor="@color/Yellow"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="City"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/Yellow" />
+
+    <EditText
+        android:id="@+id/editTextTextBlock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Block"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/Yellow" />
+
+    <EditText
+        android:id="@+id/editTextTextStreet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Street"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/Yellow" />
+
+    <EditText
+        android:id="@+id/editTextTextBuilding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Building (and Apartment)"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/Yellow" />
+
+    <Button
+        android:id="@+id/buttonorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:text="Start Ordering!"
+        android:textColor="@color/Black"
+        android:textSize="25sp" />
+
+</LinearLayout>

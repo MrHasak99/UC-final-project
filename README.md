@@ -1,33 +1,16 @@
-> ملاحظة: يجب تعبئة هذا الملف بمعلومات المشروع، يمكنك اختيار اللغة. تأكد من مسح اللغة الأخرى والتعليقات الجانبية
-> ⬇️ تعبئة معلومات المشروع بالعربية  
-<div dir="rtl">
-
-### اسم الطالب
-
-
-### اسم المشروع
-
-
-# شرح الفكرة
-المشكلة والحلول المطروحة إن وجدت
-
-
-# الأعمال المستقبلية
-
-
-</div>
-
-> Fill out project information in English ⬇️
 ### Student Name
+Hamad Al-Khalaf
 
 
 ### Project Name
+Imitation McDonalds App
 
 # Idea
-Problem and solutions if found 
+Problem and solutions if found
+Was not able to set up a cart system due to time limit issues
 
 
 # Future Work 
-
+Set up a cart system
 
 
